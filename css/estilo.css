@@ -1,0 +1,80 @@
+@font-face {
+        font-family:LexandDeca;
+        src: url("../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: BigFont;
+    src: url("../font/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf")
+}
+
+#Titulo{
+    
+    font-family: BigFont;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 40px;
+}
+
+#Conteudo{
+    font-family: LexandDeca;
+    font-weight:400 ;
+    margin: 40px;
+}
+
+body{
+
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+#box{
+    margin: 0 auto;
+    width: 1440px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#SuvsTudo{ 
+    height: 480px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#LuxuryTudo, #SedansTudo, #SuvsTudo{
+    margin-top: 200px;
+}
+
+#LuxuryTudo{
+    height: 480px;
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+#SedansTudo{
+    margin-left: 200px;
+    height: 480px;
+    padding-right: 4px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#button1, #button2, #button3 {
+    margin: 40px;
+    width: 150px;
+    height: 50px;
+    border-style: hidden;
+    border-radius: 50px;
+}
+
+
+#button1{
+    color: hsl(31, 77%, 52%);
+
+}
+#button2{
+    color:  hsl(184, 100%, 22%);
+}
+#button3{
+    color: hsl(179, 100%, 13%);
+}
