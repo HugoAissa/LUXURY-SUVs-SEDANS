@@ -29,7 +29,7 @@ body{
 }
 
 #box{
-    margin: 0 auto;
+    margin: 30px auto;
     width: 1440px;
     height: auto;
     align-items: center;
@@ -43,7 +43,8 @@ body{
 }
 
 #LuxuryTudo, #SedansTudo, #SuvsTudo{
-    margin-top: 200px;
+    margin-top: 200px ;
+    
 }
 
 #LuxuryTudo{
